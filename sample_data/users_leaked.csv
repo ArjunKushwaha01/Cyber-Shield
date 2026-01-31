@@ -1,0 +1,7 @@
+id,username,email,password,role,api_key
+1,admin,admin@corp.com,password123,admin,sk_live_8392849284928492
+2,jdoe,john.doe@gmail.com,hunter2,user,
+3,asmith,alice.smith@yahoo.com,secret123,user,
+4,bwayne,bruce@wayne.corp,batman,user,
+5,ckent,clark.kent@dailyplanet.com,kryptonite,editor,
+6,test_user,test@test.com,123456,guest,

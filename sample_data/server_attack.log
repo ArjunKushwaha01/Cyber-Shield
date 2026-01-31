@@ -1,0 +1,11 @@
+192.168.1.5 - - [10/Oct/2023:13:55:36 -0700] "GET /index.html HTTP/1.1" 200 2326
+192.168.1.5 - - [10/Oct/2023:13:55:37 -0700] "GET /about.html HTTP/1.1" 200 1540
+10.0.0.45 - - [10/Oct/2023:14:02:11 -0700] "GET /login.php HTTP/1.1" 200 4520
+10.0.0.45 - - [10/Oct/2023:14:02:15 -0700] "POST /login.php HTTP/1.1" 401 120
+10.0.0.45 - - [10/Oct/2023:14:02:18 -0700] "POST /login.php HTTP/1.1" 401 120
+45.33.22.11 - - [10/Oct/2023:14:10:05 -0700] "GET /products.php?id=1 UNION SELECT 1,username,password FROM users-- HTTP/1.1" 200 5432
+45.33.22.11 - - [10/Oct/2023:14:10:06 -0700] "GET /products.php?id=1 OR 1=1 HTTP/1.1" 200 5432
+192.168.1.10 - - [10/Oct/2023:14:15:22 -0700] "GET /contact.html HTTP/1.1" 200 2100
+88.99.11.22 - - [10/Oct/2023:14:20:01 -0700] "GET /search?q=<script>alert('xss')</script> HTTP/1.1" 200 3200
+88.99.11.22 - - [10/Oct/2023:14:20:05 -0700] "GET /../../etc/passwd HTTP/1.1" 403 400
+192.168.1.5 - - [10/Oct/2023:14:30:11 -0700] "GET /logout.php HTTP/1.1" 302 -
