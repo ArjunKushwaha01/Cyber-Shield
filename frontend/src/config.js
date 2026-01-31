@@ -1,3 +1,4 @@
 // Centralized API Configuration
-// Using 127.0.0.1 is often more reliable than localhost on some systems
-export const API_BASE_URL = 'http://127.0.0.1:8000';
+// Vercel/Production: Uses VITE_API_URL env var
+// Local Development: Falls back to localhost
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
