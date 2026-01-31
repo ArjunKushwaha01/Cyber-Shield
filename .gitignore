@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.fastapi_history
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Custom
+screen shots/
+*.sqlite
+backend/monitoring.db
+*.db
+sample_data/

@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/sql_app.db:/app/sql_app.db
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always

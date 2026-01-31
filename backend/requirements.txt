@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+httpx
+pydantic
+scikit-learn
+pandas
+python-multipart
+sqlalchemy
