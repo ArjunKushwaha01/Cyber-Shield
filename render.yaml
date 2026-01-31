@@ -1,10 +1,6 @@
 services:
   - type: web
     name: cybershield-api
-    payload:
-      # This tells Render to only trigger a deploy if files in 'backend' change
-      paths:
-        - backend/**
     rootDirectory: backend
     env: python
     buildCommand: pip install -r requirements.txt
